@@ -1,0 +1,20 @@
+---
+title: "Sentiment Analysis of Measles and Measles Vaccination in the United States Using Reddit and Census Data."
+Author: Jamila Sani and Kehinde Adeniyi
+format: pdf
+editor: visual
+---
+
+PROPOSAL:
+
+This project will examine public sentiment toward measles and measles vaccination across U.S. states, analyzing how online opinions vary by demographic and socioeconomic factors. By studying regional and emotional patterns in social media discussions, it aims to understand how population characteristics at the state level influence public discourse on disease outbreaks and immunization, thereby revealing links between digital conversation trends and broader population traits. 
+
+The question(s) of interest may include:
+
+1.  How do public opinions about measles and measles vaccination differ across the United States?
+
+2.  How do demographic and socioeconomic factors like income, education, and race influence the volume and tone of measles-related discussions on Reddit across various regions and states?
+
+    The study uses two main data sources—Reddit posts collected through the RedditExtractoR package and demographic data from U.S. censusapi—to analyze public sentiment about measles and vaccination. Reddit posts containing keywords like “measles,” “MMR,” and “immunization” will be gathered, cleaned, and filtered for English-language content from the U.S., with metadata used to identify states. Demographic data such as income, education, race, and population will be retrieved for each state to provide context for sentiment trends. Sentiment analysis using the tidytext package with NRC and Bing lexicons will classify posts by emotion (e.g., positive, negative, fear, trust), and averages will be calculated to compare discussions about disease versus vaccination. Finally, the aggregated sentiment data will be merged with state-level demographics and visualized using ggplot2 and plotly to explore geographic and demographic patterns in public discourse.
+
+## 
